@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  height: 200px;
+  background-color: rgb(255, 0, 85);
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.caja {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 85);
+}
+
+.verde {
+  background-color: greenyellow;
+}
+
+.morado {
+  background-color: blueviolet;
+}
+
+.amarillo {
+  background-color: yellow;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+.fw-wrap {
+  flex-wrap: wrap;
+}
+.fw-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
