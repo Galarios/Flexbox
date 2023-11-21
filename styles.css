@@ -53,3 +53,43 @@
 .fw-wrap-reverse {
   flex-wrap: wrap-reverse;
 }
+.jc-start {
+  justify-content: start;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-end {
+  justify-content: end;
+}
+.jc-between {
+  justify-content: space-between;
+}
+.jc-space-around {
+  justify-content: space-around;
+}
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+.ai-star {
+  align-items: start;
+}
+.ai-center {
+  align-items: center;
+}
+.ai-end {
+  align-items: end;
+}
+.ai-stretch {
+  align-items: stretch;
+}
+.gap {
+  gap: 20px;
+}
+.as {
+  align-self: center;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
